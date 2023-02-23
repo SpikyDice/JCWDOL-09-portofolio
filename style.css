@@ -1,3 +1,73 @@
-body {
-  background-color: aquamarine;
+* {
+  margin: 0;
+  font-family: "Lilita One", cursive;
+}
+
+.profilebar_container {
+  font-family: "Lilita One", cursive;
+  font-size: 20px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1fr 1fr;
+}
+
+.profile_container {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, grey, black);
+  align-items: center;
+}
+
+.profileinfo_container {
+  width: auto;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.namepos_info {
+  padding: 30px 50px 20px;
+}
+
+.profile_info {
+  padding: 0 50px;
+}
+
+#position {
+  font-size: 20px;
+}
+
+#firstname {
+  font-size: 40px;
+}
+#lastname {
+  font-size: 40px;
+}
+
+.info {
+  font-size: 18px;
+  padding: 5px;
+}
+
+/* .child {
+  flex: 1 0 25px;
+} */
+
+.experience_profile {
+  background-image: linear-gradient(to bottom right, grey, black);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
